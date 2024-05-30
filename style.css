@@ -1,6 +1,6 @@
 body {
-    background: rgb(236,226,208);
-background: linear-gradient(90deg, rgba(236,226,208,1) 0%, rgba(174,146,94,1) 100%, rgba(159,126,65,1) 100%);
+    background: rgb(168,189,158);
+background: linear-gradient(90deg, rgba(168,189,158,1) 100%, rgba(71,105,96,1) 100%);
     
     
     /* background-color: #ECE2D0; */
@@ -17,6 +17,7 @@ background: linear-gradient(90deg, rgba(236,226,208,1) 0%, rgba(174,146,94,1) 10
     border: 1px solid;
     margin: 0 50px;
     display: flex;
+    background-color: rgb(226, 233, 231);
 }
 
 .firstbox, .secondbox, .thirdbox {
