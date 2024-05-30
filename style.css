@@ -1,0 +1,63 @@
+body {
+    background: rgb(236,226,208);
+background: linear-gradient(90deg, rgba(236,226,208,1) 0%, rgba(174,146,94,1) 100%, rgba(159,126,65,1) 100%);
+    
+    
+    /* background-color: #ECE2D0; */
+}
+
+.header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    /* height: 200px; */
+    border: 1px solid;
+    margin: 0 50px;
+    display: flex;
+}
+
+.firstbox, .secondbox, .thirdbox {
+    margin: 30px;
+}
+
+.firstul, .secondul{
+    margin-top: 0;
+    list-style: none;
+    margin-left: 0;
+    display: inline-block;
+    padding-left: 0;
+    line-height: 25px;
+
+}
+li {
+    margin-left: 0;
+    padding-left: 0;
+}
+p {
+    margin-bottom: 0;
+}
+h3{
+    font-weight: bold;
+}
+
+button {
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+}
+.carddet{
+    font-style: normal;
+    font-size: 12px;
+    margin: 0;
+}
+
+.always {
+    margin: 0;
+}
+
+.free {
+    margin-bottom: 0;
+}
