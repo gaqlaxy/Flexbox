@@ -1,64 +1,211 @@
-body {
-    background: rgb(168,189,158);
-background: linear-gradient(90deg, rgba(168,189,158,1) 100%, rgba(71,105,96,1) 100%);
-    
-    
-    /* background-color: #ECE2D0; */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+  background: rgb(168, 189, 158);
+  background: linear-gradient(
+    90deg,
+    rgba(168, 189, 158, 1) 100%,
+    rgba(71, 105, 96, 1) 100%
+  );
+  font-family: "Poppins", sans-serif;
+
+  /* background-color: #ECE2D0; */
+}
+strong{
+    font-size: 20px;
+}
 .header {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
-    width: 1200px;
-    /* height: 200px; */
-    border: 1px solid;
-    margin: 0 50px;
-    display: flex;
-    background-color: rgb(226, 233, 231);
+  width: 1200px;
+  /* height: 200px; */
+  border: 1px solid;
+  margin: 0 50px;
+  display: flex;
+  background-color: rgb(226, 233, 231);
+  justify-content: space-around;
+  align-items: center;
 }
 
-.firstbox, .secondbox, .thirdbox {
-    margin: 30px;
+.firstbox,
+.secondbox,
+.thirdbox {
+  margin: 30px;
+  line-height: 30px;
 }
 
-.firstul, .secondul{
-    margin-top: 0;
-    list-style: none;
-    margin-left: 0;
-    display: inline-block;
-    padding-left: 0;
-    line-height: 25px;
-
+.firstul {
+  margin-top: 0;
+  list-style: none;
+  margin-left: 0;
+  display: inline-block;
+  padding-left: 0;
+  line-height: 25px;
+  font-size: 18px;
+}
+.secondul {
+  margin-top: 0;
+  list-style: none;
+  margin-left: 0;
+  display: inline-block;
+  padding-left: 0;
+  line-height: 25px;
+  font-size: 15px;
 }
 li {
-    margin-left: 0;
-    padding-left: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
-h3{
-    font-weight: bold;
+h3 {
+  font-weight: bold;
 }
 
 button {
-    font-weight: bold;
-    padding: 20px;
-    cursor: pointer;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
 }
-.carddet{
-    font-style: normal;
-    font-size: 12px;
-    margin: 0;
+.carddet {
+  font-style: normal;
+  font-size: 12px;
+  margin: 0;
 }
 
 .always {
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
 }
 
 .free {
-    margin-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.price {
+  margin: 0;
+}
+.nopay {
+  margin: 5px;
+}
+.linked {
+  margin-bottom: 5px;
+}
+
+.linked:last-child {
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 40px;
 }
