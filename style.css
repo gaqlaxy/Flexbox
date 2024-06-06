@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -118,7 +122,7 @@ body {
   /* background-color: #ECE2D0; */
 }
 strong{
-    font-size: 20px;
+    font-size: 16px;
 }
 .header {
   text-align: center;
@@ -126,23 +130,35 @@ strong{
 }
 
 .container {
-  width: 1200px;
+  /* width: 1200px; */
   /* height: 200px; */
-  border: 1px solid;
+  border: 0px solid;
   margin: 0 50px;
   display: flex;
   background-color: rgb(226, 233, 231);
   justify-content: space-around;
   align-items: center;
+  border-radius: 10px;
+  
 }
-
+.adv {
+  font-weight: normal;
+  font-size: 16px;
+}
 .firstbox,
 .secondbox,
 .thirdbox {
   margin: 30px;
   line-height: 30px;
 }
-
+.secondbox{
+  border-left: 1px solid rgb(168, 189, 158)
+  ;
+  border-right: 1px solid rgb(168, 189, 158)
+  ;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .firstul {
   margin-top: 0;
   list-style: none;
@@ -181,6 +197,7 @@ button {
   font-style: normal;
   font-size: 12px;
   margin: 0;
+  text-align: center;
 }
 
 .always {
@@ -208,4 +225,101 @@ button {
 }
 h1 {
   font-size: 40px;
+}
+
+.gstart{
+  text-align: center;
+  margin-bottom: 0;
+}
+
+button {
+  background-color: rgb(37, 124, 218);
+  color: white;
+}
+/* button:hover{
+  background-color: rgb(37, 124, 218);
+} */
+
+
+.secondcontainer {
+  /* width: 580px; */
+  /* height: 200px; */
+  border: 0px solid;
+  margin: 0 50px;
+  display: flex;
+  background-color: rgb(226, 233, 231);
+  /* justify-content: space-around; */
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
+
+.thirdcontainer {
+  /* width: 1200px; */
+  /* height: 200px; */
+  border: 0px solid;
+  margin: 0 50px;
+  display: flex;
+  background-color: rgb(226, 233, 231);
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
+
+.secondrow{
+  border: 0px solid;
+  margin: 0 50px;
+  display: flex;
+  background-color: rgb(226, 233, 231);
+  /* justify-content: space-around; */
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  /* justify-content: space-around; */
+}
+
+/* .sixthbox{
+  border-left: 1px solid rgb(168, 189, 158);
+  padding-left: 60px;
+} */
+/* 
+.fifthbox{
+  padding-right: 0px;
+} */
+
+.fifthbelow{
+  margin-bottom: 10px;
+  padding-top: 20px;
+  border-top: 1px solid rgb(168, 189, 158);
+}
+
+/* .fifthbox, .sixthbox {
+  border-bottom: 1px solid;
+} */
+
+.thirdul{
+  margin-top: 0;
+  list-style: none;
+  margin-left: 0;
+  display: inline-block;
+  padding-left: 0;
+  line-height: 25px;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(168, 189, 158);
+  padding-bottom: 20px;
+}
+
+.forbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 40px;
+}
+
+.fourthcontainer{
+  text-align: center;
 }
